@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/for_homepage1_2.css">
+   
+    <link rel="stylesheet" href="../static/css/style1.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/for_form.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="head">
+        <img src="../static/images/logo.png" alt="">
+      </div>
+      <div class="title">
+          <h1>Showcase Time</h1>
+          <p>Let's kickstart this event with a spark of portfolio. Share your journey, your best projects—let's
+              spread their brilliance far and wide.</p>
+      </div>
+      <div class="portfolio">
+          <form action="">
+              <h1>Submit your portfolio to showcase</h1>
+              <div class="sec">
+                 <div class="name1">
+                  <label for="">First Name </label>
+                  <i class="fa-solid fa-user"></i>
+                  <input type="text" placeholder="First Name" required>
+                 </div>
+                 <div class="name1">
+                  <label for="">Last Name</label>
+                  <i class="fa-solid fa-user"></i>
+                  <input type="text" placeholder="Last Name" required>
+                 </div>
+              </div>
+              <div class="info">
+                  <label for="">Bio</label>
+                  <input type="text" placeholder="Examples: Software Enginner, Graphic Designer, Vocal Artist..." required>
+          </div>
+              <div class="info">
+                  <label for="">Description</label>
+                  <input type="text" placeholder="Describe yourself; example: I'm youcef ahmed, I'm a software enginner from Algeria..." required>
+          </div>
+              <div class="info">
+                  <label for="">Phone Number</label>
+                  <i class="fa-solid fa-square-phone"></i>
+                  <input type="tel" placeholder="Phone Number" required>
+          </div>
+              <div class="info">
+                  <label for="">Email</label>
+                  <i class="fa-solid fa-envelope"></i>
+                  <input type="email" placeholder="Email" required>
+      
+          </div>
+          <label for="">Uplaod your personal photo</label>
+         
+	<div class="container">
+		<input type="file" id="file" accept="image/*" hidden>
+		<div id="img-area" >
+			<i class='bx bxs-cloud-upload icon'></i>
+			<h3>Upload Image</h3>
+			<p>Click or drag your images here to upload JPG, GIF
+                , or PNG, Max. of 10MB, at least 840px x 840px resolution</p>
+		</div>
+		<button id="select-image" type="button">Select Image</button>
+	</div>
+          <div class="cat">
+              <label for="">Select the category that best fits the Freelancer</label>
+             
+              <input list="category" name="category" placeholder="Select the category that best fits the Freelancer"required>
+           
+               <datalist id="category">
+                  <option value="Development  & IT">
+                  <option value="Design"></option>
+                  <option value="Writting"></option>
+                  <option value="Marketing">
+                  <option value="Translation">
+                  <option value="Legal">
+                  <option value="Photography">
+                  <option value="Data Science">
+                  <option value="Engineering & Architecture">
+               </datalist>
+          </div>
+          <div class="social">
+            <h2>Social Media Links</h2>
+            <div class="info">
+              <label for="">Facebook</label>
+              <i class="fa-brands fa-facebook-f"style="background-color: blue; "></i>
+              <input type="url" placeholder="https://www.facebook.com/exampleuser/">
+            </div>
+            <div class="info">
+              <label for="">Instagram</label>
+              <i class="fa-brands fa-instagram" style="background: linear-gradient(to bottom, violet , red, yellow);"></i>
+              <input type="url" placeholder="https://www.instagram.com/username/">
+            </div>
+            <div class="info">
+              <label for="">LinkedIn</label>
+              <i class="fa-brands fa-linkedin-in" style=" background-color: rgba(0, 42, 255, 0.726);"></i>
+              <input type="url" placeholder="https://www.linkedin.com/in/username/">
+            </div>
+            <div class="info">
+              <label for="">Whatsapp</label>
+              <i class="fa-brands fa-whatsapp" style="background-color: rgba(0, 128, 32, 0.705);"></i>
+              <input type="url" placeholder="Whatsapp">
+            </div>
+            <div class="info">
+              <label for="">Github</label>
+              <i class="fa-brands fa-github" style="background-color: black;"></i>
+              <input type="url" placeholder="https://github.com/username/">
+            </div>
+            <div class="info">
+              <label for="">X</label>
+              <i class="fa-brands fa-x-twitter" style="background-color: black;"></i>
+              <input type="url" placeholder="https://x.com/username/">
+            </div>
+            <div class="info">
+              <label for="">Behance</label>
+              <i class="fa-brands fa-behance" style="background-color: black;"></i>
+              <input type="url" placeholder="https://www.behance.net/username/
+              ">
+            </div>
+            <div class="info">
+              <label for="">Telegram</label>
+              <i class="fa-brands fa-telegram" style="background-color: #108ceb; color: white;"></i>
+              <input type="url" placeholder="https://www.telegram.com/exampleuser/">
+            </div>
+            <div class="info">
+              <label for="">Viber</label>
+              <i class="fa-brands fa-viber" style="background-color: rgb(94, 9, 207); color: white;"></i>
+              <input type="url" placeholder="https://www.viber.com/exampleuser/">
+            </div>
+            <div class="info">
+              <label for="">Skype</label>
+              <i class="fa-brands fa-skype" style=" background-color: #108ceb; color: white;"></i>
+              <input type="url" placeholder="https://www.skype.com/exampleuser/">
+            </div>
+            <div class="info">
+              <label for="">Tiktok</label>
+              <i class="fa-brands fa-tiktok" style="background-color: black; color: white ;"></i>
+              <input type="url" placeholder="https://www.tiktok.com/exampleuser/">
+            </div>
+            <div class="info">
+              <label for="">Youtube</label>
+              <i class="fa-brands fa-youtube" style="background-color: red; color: white;"></i>
+              <input type="url" placeholder="https://www.youtube.com/exampleuser/">
+            </div>
+          </div>
+          <div style="  border-bottom: 1px solid;">
+          <div class="educProject"  style="border: none;" >
+            <label>Project</label>
+            <button type="button" id="prg">Add Project</button>
+           </div>
+            <div class="projects" id="project">
+            </div>
+          </div>
+          <div>
+          <div class="educProject">
+            <label>Education</label>
+            <button id="add-education-btn" type="button">Add Education</button>
+          </div>
+   
+    <div class="education-form" style="margin-top: 17px; display: block;">
+    </div>
+    </div>
+      <div>
+       <div class="certificate">
+        <label for="">Certificate</label>
+        <button id="add-certificate-btn" type="button">Add Certificate</button>
+      </div>
+       
+        <div class="certificate-form">
+       </div>
+      </div>
+      <div class="upShow">
+        <button type="button">Upload showcase</button>
+       </div>
+    </div>
+       
+          </form>
+      </div>
+      <footer id="footer"></footer>
+      <script src="../static/js/main1.js"></script>
+      <script src="../static/js/main.js"></script>
+      <script src="../static/js/test.js"></script>
+      <script src="../static/js/main2.js"></script>
+      <script src="../static/js/main4.js"></script>
+     
+    
+</body>
+</html>
